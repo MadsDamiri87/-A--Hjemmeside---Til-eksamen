@@ -1,0 +1,19 @@
+C:\Windows\system32
+C:\Windows
+C:\Windows\System32\Wbem
+C:\Windows\System32\WindowsPowerShell\v1.0\
+C:\Windows\System32\OpenSSH\
+C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR
+C:\Program Files\Java\jdk-21.0.8-full\bin
+C:\Program Files\Git\cmd
+C:\Users\madsc\AppData\Local\Programs\Python\Python314\
+C:\Users\madsc\AppData\Local\Programs\Python\Python314\Scripts\
+C:\Users\madsc\AppData\Local\Programs\Python\Python310\Scripts\
+C:\Users\madsc\AppData\Local\Programs\Python\Python310\
+C:\Users\madsc\AppData\Local\Microsoft\WindowsApps
+C:\Users\madsc\.lmstudio\bin
+C:\Users\madsc\AppData\Local\Programs\Ollama
+C:\Users\madsc\AppData\Local\Programs\Microsoft VS Code\bin
+C:\Users\madsc\AppData\Local\Python\bin
+c:\Users\madsc\.vscode\extensions\ms-python.debugpy-2025.10.0-win32-x64\bundled\scripts\noConfigScripts
+c:\Users\madsc\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand

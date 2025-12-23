@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mads Damiri - Portfolio og CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="main-header">
+      <nav>
+        <ul>
+          <li><a href="about-me.html">About Me</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="cv.html">CV</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="about">
+        <div id="name">
+          <h1><br />Software Ingeneer</h1>
+        </div>
+        <div id="pic">
+          <img id="profilpic" src="Skærmbillede2025-09-20.jpg" />
+        </div>
+
+        <div id="graf" class="skills">
+    <div class="skill">
+      <span>Web Development</span>
+      <div class="bar"><div class="fill" style="width: 90%;"></div></div>
+    </div>
+
+    <div class="skill">
+      <span>Databases</span>
+      <div class="bar"><div class="fill" style="width: 80%;"></div></div>
+    </div>
+
+    <div class="skill">
+      <span>Testing & Debugging</span>
+      <div class="bar"><div class="fill" style="width: 65%;"></div></div>
+    </div>
+
+    <div class="skill">
+      <span>Cloud Services</span>
+      <div class="bar"><div class="fill" style="width: 75%;"></div></div>
+    </div>
+  </div>
+
+        <div id="form">
+          <form method="post" id="formula">
+            <fieldset>
+              <legend>Contact Me</legend>
+              <br>
+              <label for="email">Email:</label><br>
+              <input type="email" name="email" id="email" placeholder="Email"/><br><br>
+              <label for="name">Name:</label><br>
+              <input type="name" name="name" id="name" placeholder="Name"/><br><br>
+              <label for="Tlf">Phone Number:</label><br>
+              <input type="Tlf" name="Tlf" id="Tlf" placeholder="Phone Number"/><br><br>
+
+              <label for="tekstfield">Type in your message:</label>
+              <textarea name="tekstfield" id="tekstfield" rows="8" cols="60" placeholder="Text:"></textarea><br><br>
+              <br>
+              <button>Submit</button>
+            </fieldset>
+          </form>
+        </div>
+      </section>
+    </main>
+      <script>
+  window.addEventListener("scroll", function() {
+    const header = document.getElementById("main-header");
+    if (window.scrollY > 50) { // når man har scrollet mere end 50px
+      header.classList.add("shrink");
+    } else {
+      header.classList.remove("shrink");
+    }
+  });
+</script>
+    <footer></footer>
+  </body>
+</html>

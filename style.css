@@ -310,6 +310,7 @@ nav p {
   padding: 0.45rem 1.4rem;
   cursor: pointer;
   color: white;
+  white-space: nowrap;
   background: linear-gradient(to right, #0990fe, #0239a8);
 }
 .btnmain:hover {

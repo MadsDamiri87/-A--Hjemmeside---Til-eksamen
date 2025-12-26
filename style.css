@@ -392,6 +392,9 @@ nav p {
   font-weight: 100;
   color: var(--primary-info);
 }
+
+/* -------- Media Queries ------- */
+
 @media (max-width: 890px) {
   #main-nav {
     grid-template-columns: 1fr auto;

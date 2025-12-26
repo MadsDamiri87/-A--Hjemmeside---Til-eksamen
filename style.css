@@ -174,7 +174,7 @@ nav p {
   z-index: 0;
 }
 
-.labtop {
+.home .labtop {
   position: relative;
   grid-row: 2 / 3;
   grid-column: 6 / 8;
@@ -237,6 +237,7 @@ nav p {
   margin-top: 100px;
   padding-right: 130px;
   padding-top: 40px;
+  min-width: 230px;
 }
 
 .home .highlightName {
@@ -360,6 +361,7 @@ nav p {
   position: absolute;
   transform: translateY(-100%);
   right: 0;
+  filter: contrast(1.3) drop-shadow(20px 0px 18px rgba(0, 0, 0, 0.9));
 }
 
 .about .colum2 {
@@ -413,7 +415,8 @@ nav p {
   color: #0990fe;
 }
 
-.containersection2 .cnt {
+.containersection2 .cnt,
+.portfolio .cnt {
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -455,6 +458,48 @@ nav p {
   letter-spacing: 0.05em;
   font-weight: 100;
   color: var(--primary-important);
+}
+
+/* Portfolio sektion */
+
+.portfolio .cnt {
+  margin-top: 30px;
+}
+.portfolio h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+
+  color: var(--primary-important);
+}
+
+.my-projects-headline {
+  justify-items: center;
+}
+
+.portfolio .labtop {
+  position: relative;
+  grid-row: 2 / 3;
+  grid-column: 6 / 8;
+  justify-self: center;
+  margin-left: 1rem;
+  z-index: 20;
+}
+.labtop img:first-child {
+  width: 250px;
+  height: 250px;
+  filter: brightness(0.75) contrast(1.15)
+    drop-shadow(8px 8px 7px rgba(179, 222, 142, 0.1));
+}
+
+.labtop .codegif {
+  width: 180px;
+  height: 105px;
+}
+.codegif {
+  position: absolute;
+  left: 35px;
+  top: 54px;
 }
 
 /* Footer Navigation */
@@ -507,7 +552,7 @@ nav p {
     grid-template-rows: auto auto;
   }
 
-  .labtop {
+  .home .labtop {
     display: none;
   }
 
@@ -518,20 +563,15 @@ nav p {
   .box {
     display: none;
   }
-  .innergrid {
+  .home .innergrid {
     margin-bottom: 100px;
     padding-right: 20px;
     grid-column: 1/8;
   }
-  .innergrid p {
+  .home .innergrid p {
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 10px;
-  }
-  .boxline,
-  .boxline2,
-  .box2 {
-    display: none;
   }
   .btnmain .main-text {
     grid-column: 1 / 4;
@@ -567,7 +607,7 @@ nav p {
     padding-left: 10px;
   }
   .right {
-    margin-right: 0px !important;
+    margin-right: 10px !important;
   }
 
   /* about me sektion */
